@@ -1,6 +1,6 @@
-# Dataset Putusan Narkotika - [NAMA PN] ([TAHUN])
+# Dataset Putusan Narkotika - PN Medan (2023-2025)
 
-Dataset 50 dokumen putusan pengadilan perkara **Narkotika dan Psikotropika** (Pidana Khusus) dari **[NAMA PENGADILAN NEGERI]**, dikumpulkan sebagai bahan penelitian dan praktikum **Temu Kembali Informasi (Information Retrieval)**.
+Dataset 50 dokumen putusan pengadilan perkara **Narkotika dan Psikotropika** (Pidana Khusus) dari **PENGADILAN NEGERI MEDAN**, dikumpulkan sebagai bahan penelitian dan praktikum **Temu Kembali Informasi (Information Retrieval)**.
 
 > Tugas UTS Temu Kembali Informasi, Semester Ganjil 2026/2027, Fakultas Teknik, Universitas Muhammadiyah Malang.
 
@@ -26,9 +26,9 @@ Putusan pengadilan adalah dokumen terbuka yang kaya informasi: identitas terdakw
 ## Sumber Data
 - Situs: [Direktori Putusan Mahkamah Agung RI](https://putusan3.mahkamahagung.go.id/direktori.html)
 - Direktori: **Pidana Khusus**, klasifikasi **Narkotika dan Psikotropika**
-- Pengadilan: **[NAMA PN]**
-- Tahun putusan: **[TAHUN]**
-- Tanggal pengambilan data: **[TANGGAL]**
+- Pengadilan: **PN Medan**
+- Tahun putusan: **2023-2025**
+- Tanggal pengambilan data: **30-09-2026**
 - Seluruh putusan berstatus **bukan berkekuatan hukum tetap**.
 
 ## Struktur Repository
@@ -46,7 +46,7 @@ Dataset-Narkotika_329_317/
 |---|---|
 | No | Nomor urut (1-50) |
 | No Putusan | Nomor perkara, contoh: `408/Pid.Sus/2021/PN Gpr` |
-| Lembaga Peradilan | Nama pengadilan, contoh: `PN Kab Kediri` |
+| Lembaga Peradilan | Nama pengadilan, contoh: `PN Medan` |
 | Barang Bukti | Barang bukti yang ditetapkan dalam putusan |
 | Amar Putusan | Isi amar putusan (pidana penjara, denda, penetapan barang bukti, biaya perkara) |
 
@@ -54,10 +54,10 @@ Dataset-Narkotika_329_317/
 | Item | Nilai |
 |---|---|
 | Jumlah putusan | 50 |
-| Pengadilan | [NAMA PN] |
-| Rentang tahun | [TAHUN] |
-| Jenis narkotika dominan | [mis. sabu-sabu] |
-| Rentang pidana penjara | [min] - [maks] |
+| Pengadilan | PN Medan |
+| Rentang tahun | 2023-2025 |
+| Jenis narkotika dominan | mis. sabu-sabu |
+| Rentang pidana penjara | min - maks |
 
 ## Cara Menggunakan
 ```bash
@@ -86,6 +86,6 @@ Dokumen bersumber dari publikasi resmi Mahkamah Agung RI yang bersifat terbuka. 
 | Nama | NIM |
 |---|---|
 | Dino Alfian Zamri | 202310370311329 |
-| [NAMA ANGGOTA 2] | [NIM ANGGOTA 2 (berakhiran 317)] |
+| M Fajar Nurilham Jaya | 202310370311317 |
 
 Dosen pengampu: Galih W. W
