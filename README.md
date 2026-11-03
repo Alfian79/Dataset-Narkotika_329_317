@@ -1,4 +1,4 @@
-# Dataset Putusan Narkotika - PN Medan (2023-2025)
+# Dataset Putusan Narkotika - PN Medan (2023-2024)
 
 Dataset 50 dokumen putusan pengadilan perkara **Narkotika dan Psikotropika** (Pidana Khusus) dari **PENGADILAN NEGERI MEDAN**, dikumpulkan sebagai bahan penelitian dan praktikum **Temu Kembali Informasi (Information Retrieval)**.
 
@@ -27,7 +27,7 @@ Putusan pengadilan adalah dokumen terbuka yang kaya informasi: identitas terdakw
 - Situs: [Direktori Putusan Mahkamah Agung RI](https://putusan3.mahkamahagung.go.id/direktori.html)
 - Direktori: **Pidana Khusus**, klasifikasi **Narkotika dan Psikotropika**
 - Pengadilan: **PN Medan**
-- Tahun putusan: **2023-2025**
+- Tahun putusan: **2023-2024**
 - Tanggal pengambilan data: **30-09-2026**
 - Seluruh putusan berstatus **bukan berkekuatan hukum tetap**.
 
@@ -55,9 +55,9 @@ Dataset-Narkotika_329_317/
 |---|---|
 | Jumlah putusan | 50 |
 | Pengadilan | PN Medan |
-| Rentang tahun | 2023-2025 |
-| Jenis narkotika dominan | mis. sabu-sabu |
-| Rentang pidana penjara | min - maks |
+| Rentang tahun | 2023-2024 (39 putusan tahun 2023, 11 putusan tahun 2024) |
+| Jenis narkotika | Sabu/metamfetamina (38 putusan), ekstasi (9 putusan), ganja (3 putusan); sebagian putusan memuat lebih dari satu jenis |
+| Rentang pidana penjara | 4 tahun - 15 tahun (berdasarkan amar putusan) |
 
 ## Cara Menggunakan
 ```bash
@@ -75,7 +75,7 @@ print(df.head())
 ## Kriteria Pemilihan Data
 1. Direktori Pidana Khusus, klasifikasi Narkotika dan Psikotropika.
 2. Satu Pengadilan Negeri, tidak sama dengan kelompok lain.
-3. Tahun putusan 2023-2025.
+3. Tahun putusan 2023-2024 (rentang yang direkomendasikan 2023-2025).
 4. Bukan putusan berkekuatan hukum tetap.
 5. Format dokumen PDF, 50 berkas.
 
